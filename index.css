@@ -1,0 +1,186 @@
+
+
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing:border-box;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+#tittle{
+    width:10%;
+}
+
+span{
+    color: red;
+}
+
+nav{
+    width: 100%;
+    position:fixed;
+    background-image: linear-gradient(to right,white,black);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#logoimage{
+    width: 100px;
+    display:flex;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+a:hover{
+    color:grey;
+    transition-delay: 0.1s;
+}
+
+#goodforest{
+    color: white;
+    font-family: 'Lato';
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/goodforest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition-delay: .4s;
+}
+
+
+#question{
+    padding-top:200px;
+    text-align: center;
+    font-family: Calibri;
+    font-size:60px;
+}
+
+.box{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: auto;
+    flex-direction: row;
+    display: flex;
+    width: 50%;
+       
+}
+
+.box2{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+    display: flex;
+    width: 40%;
+
+}
+
+.box3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.textbox {
+    flex-direction: column;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Geneva';
+    font-size: xx-large;
+    
+}
+
+.imgBox{
+    width: 300px;
+    height: auto;
+
+}
+
+.smallquestion{
+    font-size: xx-large;
+    flex-direction: row;
+}
+
+.smalltextbox{
+    margin-top: 7%;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: center;
+    font-family: 'Geneva';
+    font-size: large;
+    flex-direction: row;
+}
+
+#skill{
+
+    font-family: 'Calibri';
+    text-align: center;
+    margin-top: 100px;
+    font-size:60px;
+    
+}
+
+#imgskill{
+    width: 80%;
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.link{
+    margin-top: 70px;
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%, 50%);
+    width:180px;
+    height:60px;
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    text-transform: uppercase;
+    line-height: 60px;
+    transition: 0.5s;
+    text-align: center;
+    font-size: 30px;
+}   
+.link:hover{
+    background:grey;
+    transition-delay: 0.3s;
+    color: black;
+}
